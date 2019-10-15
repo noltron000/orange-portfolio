@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// this @ts-ignore option is a personal convention //
-// ? how to set this up in tsconfig ? //
-// @ts-ignore //
+// this @ts-ignore option is a personal convention
+// ? how to set this up in tsconfig ?
+// @ts-ignore
 import App from './App.tsx';
-// @ts-ignore //
+// @ts-ignore
 import * as serviceWorker from './serviceWorker.ts';
 
 ReactDOM.render(<App />, document.getElementById('root'));

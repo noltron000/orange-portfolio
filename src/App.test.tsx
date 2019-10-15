@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// this option is a personal convention //
-// ? how to set this up in tsconfig ? //
-// @ts-ignore //
+// this option is a personal convention
+// ? how to set this up in tsconfig ?
+// @ts-ignore
 import App from './App.tsx';
 
 it('renders without crashing', () => {
