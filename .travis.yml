@@ -8,6 +8,7 @@ cache:
 script:
   - yarn test
   - yarn run test:coverage
+  - yarn run coveralls
   - yarn run build
 
 deploy:

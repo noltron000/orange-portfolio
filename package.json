@@ -16,6 +16,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
+		"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
 		"predeploy": "yarn build",
 		"deploy": "gh-pages -b master -d build",
 		"test": "CI=true react-scripts test --env=jsdom",
@@ -38,6 +39,7 @@
 		]
 	},
 	"devDependencies": {
+		"coveralls": "^3.0.7",
 		"gh-pages": "^2.1.1"
 	}
 }
