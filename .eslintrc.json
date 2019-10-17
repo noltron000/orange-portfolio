@@ -1,7 +1,8 @@
 {
 	"env": {
 		"browser": true,
-		"es6": true
+		"es6": true,
+		"jest": true
 	},
 	"extends": [
 		"airbnb"
@@ -22,5 +23,47 @@
 		"react",
 		"@typescript-eslint"
 	],
-	"rules": {}
+	"rules": {
+		"no-tabs": 0,
+		"indent": [
+			2,
+			"tab"
+		],
+		"semi": [
+			2,
+			"never",
+			{
+				"beforeStatementContinuationChars": "never"
+			}
+		],
+		"linebreak-style": 0,
+		"jsx-quotes": [
+			2,
+			"prefer-single"
+		],
+		"react/jsx-indent-props": [
+			2,
+			"tab"
+		],
+		"react/jsx-indent": [
+			2,
+			"tab",
+			{
+				"checkAttributes": true,
+				"indentLogicalExpressions": true
+			}
+		],
+		"react/jsx-one-expression-per-line": 0,
+		"react/jsx-filename-extension": [
+			2,
+			{
+				"extensions": [
+					".ts",
+					".tsx",
+					".js",
+					".jsx"
+				]
+			}
+		]
+	}
 }
