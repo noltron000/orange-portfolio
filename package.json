@@ -49,6 +49,7 @@
 		"eslint-plugin-react": "^7.16.0",
 		"eslint-plugin-react-hooks": "^1.7.0",
 		"gh-pages": "^2.1.1",
-		"jest": "24.9.0"
+		"jest": "24.9.0",
+		"node-sass": "^4.12.0"
 	}
 }

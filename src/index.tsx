@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+import './index.scss'
 // this @ts-ignore option is a personal convention
 // ? how to set this up in tsconfig ?
 // @ts-ignore
