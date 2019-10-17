@@ -52,3 +52,4 @@ Thus, some really cool technologies have been used!
 1. [GitHub Pages "User Site" w/React](https://medium.com/swlh/deploying-react-apps-to-github-pages-on-master-branch-creating-a-user-site-bc96c2a37dc8)
 1. [Integrating Coveralls](https://medium.com/@okunladekayode/how-i-integrated-coveralls-with-my-nodejs-project-95e88b78ae68)
 1. [Using ESLint & Prettier in TypeScript](https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb)
+1. [Using Sass in React](https://scotch.io/tutorials/using-sass-in-create-react-app-v2)
