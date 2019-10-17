@@ -1,4 +1,11 @@
 {
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"files.insertFinalNewline": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
 	"eslint.enable": true,
 	"eslint.validate": [
 		"javascript",
