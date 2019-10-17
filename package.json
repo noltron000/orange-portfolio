@@ -19,7 +19,7 @@
 		"predeploy": "yarn build",
 		"deploy": "gh-pages -b master -d build",
 		"test": "CI=true react-scripts test --env=jsdom",
-		"test:coverage": "yarn test --coverage",
+		"test:coverage": "yarn test --coverage --coverageReporters=text-lcov | coveralls",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
@@ -38,6 +38,9 @@
 		]
 	},
 	"devDependencies": {
-		"gh-pages": "^2.1.1"
+		"@babel/preset-typescript": "7.6.0",
+		"coveralls": "^3.0.7",
+		"gh-pages": "^2.1.1",
+		"jest": "24.9.0"
 	}
 }

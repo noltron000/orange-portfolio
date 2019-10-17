@@ -1,4 +1,5 @@
-[![Coverage Status](https://coveralls.io/repos/github/noltron000/noltron000.github.io/badge.svg?branch=master)](https://coveralls.io/github/noltron000/noltron000.github.io?branch=master)
+[![Build Status](https://travis-ci.com/noltron000/noltron000.github.io.svg?branch=deploy)](https://travis-ci.com/noltron000/noltron000.github.io)
+[![Coverage Status](https://coveralls.io/repos/github/noltron000/noltron000.github.io/badge.svg?branch=deploy)](https://coveralls.io/github/noltron000/noltron000.github.io?branch=deploy)
 
 ---
 
@@ -9,6 +10,26 @@ I consider myself a Frontend Engineer, although I dabble in Backend Systems, and
 > ## React Boilerplate
 > This project was set up using `npx create-react-app ./ --typescript`, so it came with some boilerplate commands and code.
 > For more information about this, be sure to checkout the auto-generated [react readme](./REACT.md).
+
+## Technologies Used
+This portfolio is meant to showcase my aptitudes in *multiple* dimensions.
+The repository itself was carefully made to practice many conventions, opinions, and parameters.
+Thus, some really cool technologies have been used!
+- Command Line
+- VSCode
+- React
+- TypeScript
+- Jest
+- GitHub Pages
+- Travis CI
+- Coveralls
+- Git Kraken
+- Sass
+- ESLinter
+- Prettier
+- CSS Frameworks
+- Uglify JS
+- Uglify CSS
 
 # Resources
 1. [TypeScript with React](https://create-react-app.dev/docs/adding-typescript/)
