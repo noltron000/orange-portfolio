@@ -1,10 +1,14 @@
 import React from 'react'
+import Typography from '@material-ui/core/Typography'
 import logo from './logo.svg'
 import './App.scss'
 
 const App: React.FC = () => (
 	<div className='App'>
 		<header className='App-header'>
+			<Typography variant='h1'>
+				Hello World
+			</Typography>
 			<img
 				src={logo}
 				className='App-logo'
