@@ -31,6 +31,18 @@ Thus, some really cool technologies have been used!
 - Uglify JS
 - Uglify CSS
 
+# Local Setup
+1. fork or clone this repository.
+1. run `yarn`.
+1. run `yarn start`.
+
+# Deployment
+1. create a pull request to `dev`.
+1. when operations are ready, `dev` will be merged to `deploy`.
+1. while on `deploy`, a programmer can run `yarn run deploy` to trigger a build.
+	- note: the deployment will only take effect if there are changes to the frontend.
+1. `master` is an orphaned branch; github uses this branch as information to host on github pages.
+
 # Resources
 1. [TypeScript with React](https://create-react-app.dev/docs/adding-typescript/)
 1. [React on GitHub Pages](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
@@ -38,3 +50,4 @@ Thus, some really cool technologies have been used!
 1. [Automate React w/Travis](https://medium.com/@sumn2u/automate-create-react-app-deployment-to-gh-pages-using-travis-ci-b2a97203680b)
 1. [Deploying React to GitHub Pages](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 1. [GitHub Pages "User Site" w/React](https://medium.com/swlh/deploying-react-apps-to-github-pages-on-master-branch-creating-a-user-site-bc96c2a37dc8)
+1. [Integrating Coveralls](https://medium.com/@okunladekayode/how-i-integrated-coveralls-with-my-nodejs-project-95e88b78ae68)
