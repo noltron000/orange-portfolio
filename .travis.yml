@@ -10,9 +10,6 @@ script:
   - yarn run test:coverage
   - yarn run coveralls
   - yarn run build
-after_script: # upload coverage reports to coveralls
-  - COVERALLS_TOKEN=$coveralls_token
-  - yarn run coveralls
 
 deploy:
   provider: pages

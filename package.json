@@ -16,11 +16,11 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"coveralls": "cat ./tests/coverage/lcov.info | coveralls",
 		"predeploy": "yarn build",
 		"deploy": "gh-pages -b master -d build",
 		"test": "CI=true react-scripts test --env=jsdom",
-		"test:coverage": "yarn test --coverage",
+		"test:coverage": "yarn test --coverage --coverageReporters=text-lcov",
+		"coveralls": "coveralls",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
