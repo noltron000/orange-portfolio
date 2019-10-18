@@ -8,12 +8,15 @@ import Splash from './Splash.tsx'
 import Header from './Header.tsx'
 // @ts-ignore
 import Navbar from './Navbar.tsx'
+// @ts-ignore
+import Tabloid from './Tabloid.tsx'
 
 const App: React.FC = () => (
 	<>
 		<Splash />
 		<Header />
 		<Navbar />
+			<Tabloid />
 	</>
 )
 
