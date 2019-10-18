@@ -1,32 +1,26 @@
 import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import logo from './logo.svg'
 import './App.scss'
+// this @ts-ignore option is a personal convention
+// ? how to set this up in tsconfig ?
+// @ts-ignore
+import Splash from './Splash.tsx'
+// @ts-ignore
+import Header from './Header.tsx'
+// @ts-ignore
+import Navbar from './Navbar.tsx'
+// @ts-ignore
+import Tabloid from './Tabloid.tsx'
 
 const App: React.FC = () => (
-	<div className='App'>
-		<header className='App-header'>
-			<Typography variant='h1'>
-				Hello World
-			</Typography>
-			<img
-				src={logo}
-				className='App-logo'
-				alt='logo'
-			/>
-			<p>
-				Edit <code>src/App.tsx</code> and save to reload.
-			</p>
-			<a
-				className='App-link'
-				href='https://reactjs.org'
-				target='_blank'
-				rel='noopener noreferrer'
-			>
-				Learn React
-			</a>
-		</header>
-	</div>
+	<>
+		<div id='content'>
+			<Splash />
+			<Header />
+			<Navbar />
+			<Tabloid />
+		</div>
+		<div id='background' />
+	</>
 )
 
 export default App
