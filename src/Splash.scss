@@ -1,0 +1,16 @@
+#splash {
+	// size & position
+	//* border box keeps the size right even with padding *//
+	box-sizing: border-box;
+	height: 100vh;
+	padding: 6rem 4rem;
+
+	// text info
+	text-align: center;
+
+	// flexbox params
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
