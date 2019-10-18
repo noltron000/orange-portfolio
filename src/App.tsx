@@ -3,11 +3,11 @@ import React from 'react'
 // this @ts-ignore option is a personal convention
 // ? how to set this up in tsconfig ?
 // @ts-ignore
-import Boilerplate from './Boilerplate.tsx'
+import Splash from './Splash.tsx'
 
 const App: React.FC = () => (
 	<>
-		<Boilerplate />
+		<Splash />
 	</>
 )
 
