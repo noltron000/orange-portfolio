@@ -1,5 +1,5 @@
 import React from 'react'
-// import './App.scss'
+import './App.scss'
 // this @ts-ignore option is a personal convention
 // ? how to set this up in tsconfig ?
 // @ts-ignore
@@ -13,10 +13,13 @@ import Tabloid from './Tabloid.tsx'
 
 const App: React.FC = () => (
 	<>
-		<Splash />
-		<Header />
-		<Navbar />
+		<div id='content'>
+			<Splash />
+			<Header />
+			<Navbar />
 			<Tabloid />
+		</div>
+		<div id='background' />
 	</>
 )
 
