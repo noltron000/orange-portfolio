@@ -1,0 +1,14 @@
+#header {
+	// size & position
+	//* border box keeps the size right even with padding *//
+	box-sizing: border-box;
+
+	// text info
+	text-align: center;
+
+	// flexbox params
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}

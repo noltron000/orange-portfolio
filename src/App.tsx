@@ -4,10 +4,13 @@ import React from 'react'
 // ? how to set this up in tsconfig ?
 // @ts-ignore
 import Splash from './Splash.tsx'
+// @ts-ignore
+import Header from './Header.tsx'
 
 const App: React.FC = () => (
 	<>
 		<Splash />
+		<Header />
 	</>
 )
 
