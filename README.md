@@ -17,19 +17,34 @@ The repository itself was carefully made to practice many conventions, opinions,
 Thus, some really cool technologies have been used!
 - Command Line
 - VSCode
+- Git Kraken
+- ESLint
 - React
 - TypeScript
 - Jest
+- Sass
+- Material UI
 - GitHub Pages
 - Travis CI
 - Coveralls
-- Git Kraken
-- Sass
-- ESLinter
-- Prettier
-- CSS Frameworks
-- Uglify JS
-- Uglify CSS
+- Husky `?`
+- ~~Prettier~~
+<!-- - Uglify JS -->
+<!-- - Uglify CSS -->
+
+### Why No Prettier?
+Prettier is great and all, but it is heavily opinionated.
+For a framework that attempts to unify the industry with one standard, its standards don't always align with best practice.
+One significant example I ran into was its manipulation of multiline arrays, which should almost always become multiline unless there are two or less items.
+For that matter, it doesn't align with my personal conventions.
+Since I was butting heads with it so much, and it lacked the configuration that I was looking for, I decided to ditch it.
+With that said, I found a nugget of wisdom in my journey in finding prettier configuration:
+> *Nobody loves what prettier does to their syntax*<br />
+> *Everyone loves what prettier does to their coworkers' syntax*
+
+I won't resent a project that uses prettier for that reason.
+But ultimately, for myself, ESLint + Husky is enough to enforce a beautiful code standard.
+
 
 # Local Setup
 1. fork or clone this repository.
@@ -53,3 +68,5 @@ Thus, some really cool technologies have been used!
 1. [Integrating Coveralls](https://medium.com/@okunladekayode/how-i-integrated-coveralls-with-my-nodejs-project-95e88b78ae68)
 1. [Using ESLint & Prettier in TypeScript](https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb)
 1. [Using Sass in React](https://scotch.io/tutorials/using-sass-in-create-react-app-v2)
+1. [Easy Git Hooks w/Husky](https://www.vojtechruzicka.com/githooks-husky/)
+1. [Massively](https://html5up.net/massively)
