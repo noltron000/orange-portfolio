@@ -10,7 +10,7 @@ const Splash: React.FC = () => (
 			A student at Make School<br />
 			with a passion for frontend
 		</p>
-		<a href='#Nolan'>
+		<a href='#nothing'>
 			More Info
 		</a>
 	</header>

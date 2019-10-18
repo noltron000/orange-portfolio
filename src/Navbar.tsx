@@ -5,13 +5,13 @@ const Navbar: React.FC = () => (
 	<nav id='navbar'>
 		<ul>
 			<li>
-				<a href='#nothing'>page 1</a>
+				<a href='#nothing'>topic 1</a>
 			</li>
 			<li>
-				<a href='#nothing'>page 2</a>
+				<a href='#nothing'>topic 2</a>
 			</li>
 			<li>
-				<a href='#nothing'>page 3</a>
+				<a href='#nothing'>topic 3</a>
 			</li>
 		</ul>
 		<ul>
