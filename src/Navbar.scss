@@ -1,13 +1,15 @@
 #navbar {
 	// size & position
-	height: 4rem; // ? convert to css-var
+	// height: 4rem; // ? convert to css-var
 	margin: -4rem 0 0 0; // ? convert to css-var
 
 	// background elements
-	background: rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.125);
 
 	// text info
+	color: whitesmoke;
 	line-height: 4rem; // ? convert to css-var
+	white-space: nowrap;
 
 	// flexbox params
 	display: flex;
@@ -19,16 +21,31 @@
 		margin: 0;
 	}
 
+	a {
+		color: inherit;
+		display: block;
+		text-decoration: none;
+	}
+
+	.active {
+		background-color: whitesmoke;
+		color: black;
+	}
+
 	.links {
 		flex-grow: 1;
+		a {
+			padding: 0 2rem;
+		}
 	}
 
 	.icons {
-		padding: 0 2rem;
+		padding: 0 1rem 0 0;
+		a {
+			padding: 0 1rem;
+		}
 	}
 }
-
-
 
 #header {
 	// size & position

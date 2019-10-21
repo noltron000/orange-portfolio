@@ -4,7 +4,7 @@ import './Navbar.scss'
 const Navbar: React.FC = () => (
 	<nav id='navbar'>
 		<ul className='links'>
-			<li>
+			<li className='active'>
 				<a href='#nothing'>topic 1</a>
 			</li>
 			<li>
@@ -15,6 +15,9 @@ const Navbar: React.FC = () => (
 			</li>
 		</ul>
 		<ul className='icons'>
+			<li>
+				<a href='#nothing'>social media</a>
+			</li>
 			<li>
 				<a href='#nothing'>social media</a>
 			</li>
