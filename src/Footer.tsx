@@ -28,6 +28,7 @@ const Footer: React.FC = () => (
 				</label>
 				<textarea
 					id='message'
+					name='message'
 				/><br />
 				<button type='submit'>
 					Send
@@ -36,13 +37,13 @@ const Footer: React.FC = () => (
 		</section>
 		<section id='contact'>
 			<section>
-				<h3>Email</h3>
+				<p>Email</p>
 				<address>
 					my_handle@email.com
 				</address>
 			</section>
 			<section>
-				<h3>Social</h3>
+				<p>Social</p>
 				<address>
 					<ul>
 						<li>Twitter</li>
