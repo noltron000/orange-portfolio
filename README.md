@@ -45,7 +45,6 @@ With that said, I found a nugget of wisdom in my journey in finding prettier con
 I won't resent a project that uses prettier for that reason.
 But ultimately, for myself, ESLint + Husky is enough to enforce a beautiful code standard.
 
-
 # Local Setup
 1. fork or clone this repository.
 1. run `yarn`.

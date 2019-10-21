@@ -1,8 +1,9 @@
 #header {
 	// size & position
-	position: relative;
 	height: 18rem;
+	position: relative;
 	margin-top: -18rem;
+	padding: 4rem; // ? convert to css-var
 
 	// text info
 	text-align: center;
@@ -12,4 +13,11 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
+
+	// dom integration
+	pointer-events: none;
+
+	* {
+		pointer-events: auto;
+	}
 }

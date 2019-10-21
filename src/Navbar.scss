@@ -1,6 +1,55 @@
 #navbar {
-	background-color: lightgrey;
-	// ! THIS NAVBAR WILL BE OVERHAULED !
-	// once material-ui has been implemented, this will be
-	// replaced by one of its built-in components.
+	// size & position
+	height: 4rem; // ? convert to css-var
+	margin: -4rem 0 0 0; // ? convert to css-var
+
+	// background elements
+	background: rgba(255, 255, 255, 0.25);
+
+	// text info
+	line-height: 4rem; // ? convert to css-var
+
+	// flexbox params
+	display: flex;
+
+	ul {
+		display: inherit;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.links {
+		flex-grow: 1;
+	}
+
+	.icons {
+		padding: 0 2rem;
+	}
+}
+
+
+
+#header {
+	// size & position
+	height: 18rem;
+	position: relative;
+	margin-top: -18rem;
+	padding: 4rem; // ? convert to css-var
+
+	// text info
+	text-align: center;
+
+	// flexbox params
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+
+	// dom integration
+	pointer-events: none;
+
+	* {
+		pointer-events: auto;
+	}
 }
