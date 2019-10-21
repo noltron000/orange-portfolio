@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/noltron000/noltron000.github.io.svg?branch=deploy)](https://travis-ci.com/noltron000/noltron000.github.io)
-[![Coverage Status](https://coveralls.io/repos/github/noltron000/noltron000.github.io/badge.svg?branch=deploy)](https://coveralls.io/github/noltron000/noltron000.github.io?branch=deploy)
+[![Coverage Status](https://coveralls.io/repos/github/noltron000/noltron000.github.io/badge.svg)](https://coveralls.io/github/noltron000/noltron000.github.io)
 
 ---
 
