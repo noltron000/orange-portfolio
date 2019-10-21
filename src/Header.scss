@@ -1,7 +1,8 @@
 #header {
 	// size & position
-	//* border box keeps the size right even with padding *//
-	box-sizing: border-box;
+	position: relative;
+	height: 18rem;
+	margin-top: -18rem;
 
 	// text info
 	text-align: center;
