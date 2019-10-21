@@ -10,6 +10,8 @@ import Header from './Header.tsx'
 import Navbar from './Navbar.tsx'
 // @ts-ignore
 import Tabloid from './Tabloid.tsx'
+// @ts-ignore
+import Footer from './Footer.tsx'
 
 const App: React.FC = () => (
 	<>
@@ -18,6 +20,7 @@ const App: React.FC = () => (
 			<Header />
 			<Navbar />
 			<Tabloid />
+			<Footer />
 		</div>
 		<div id='background' />
 	</>

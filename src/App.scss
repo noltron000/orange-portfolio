@@ -19,4 +19,11 @@
 	background-position: center, center, top center;
 	background-repeat: repeat, no-repeat, no-repeat;
 	background-attachment: scroll, scroll, scroll;
+	background-size: auto, auto, cover;
+}
+
+@media screen and (max-width: 78rem) {
+  #content {
+		max-width: calc(100vw - 6rem);
+  }
 }
