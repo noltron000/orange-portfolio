@@ -70,3 +70,4 @@ But ultimately, for myself, ESLint + Husky is enough to enforce a beautiful code
 1. [Using Sass in React](https://scotch.io/tutorials/using-sass-in-create-react-app-v2)
 1. [Easy Git Hooks w/Husky](https://www.vojtechruzicka.com/githooks-husky/)
 1. [Massively](https://html5up.net/massively)
+1. [Box Sizing](https://www.paulirish.com/2012/box-sizing-border-box-ftw/) *<small>this is from 2012 and is still relevant</small>*
