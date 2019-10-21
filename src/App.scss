@@ -21,3 +21,9 @@
 	background-attachment: scroll, scroll, scroll;
 	background-size: auto, auto, cover;
 }
+
+@media screen and (max-width: 78rem) {
+  #content {
+		max-width: calc(100vw - 6rem);
+  }
+}
