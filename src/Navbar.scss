@@ -1,6 +1,6 @@
 #navbar {
 	// size & position
-	// height: 4rem; // ? convert to css-var
+	height: 4rem; // ? convert to css-var
 	margin: -4rem 0 0 0; // ? convert to css-var
 
 	// background elements
@@ -25,6 +25,10 @@
 		color: inherit;
 		display: block;
 		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		font-weight: 900;
+		letter-spacing: 0.075em;
 	}
 
 	.active {
@@ -40,7 +44,7 @@
 	}
 
 	.icons {
-		padding: 0 1rem 0 0;
+		padding: 0 1rem;
 		a {
 			padding: 0 1rem;
 		}
