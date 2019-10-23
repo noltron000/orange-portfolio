@@ -7,7 +7,7 @@ const Header: React.FC = () => (
 			href='#nothing'
 			className='logo'
 		>
-			Nolan Kovacik
+			Portfolio
 		</a>
 	</header>
 )
