@@ -11,8 +11,9 @@
 	line-height: 4rem; // ? convert to css-var
 	white-space: nowrap;
 
-	// flexbox params
-	display: flex;
+	// // flexbox params
+	// display: flex;
+	display: none;
 
 	ul {
 		display: inherit;

@@ -2,12 +2,12 @@ import React from 'react'
 import './Story.scss'
 
 const Story: React.FC = () => (
-	<article className='post'>
+	<article className='story'>
 		<time
 			className='date-published'
 			dateTime='10-21-2019'
 		>
-			October 21st, 2019
+			October 21, 2019
 		</time>
 		<a href='#nothing'>
 			<h1>Story Header</h1>
