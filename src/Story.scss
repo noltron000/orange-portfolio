@@ -1,19 +1,18 @@
 .post {
-	padding: 6rem 8rem;
+	padding: 6rem 2rem;
 	text-align: center;
 
-	p {
-		text-align: left;
+	h1 {
+		font-size: 3rem;
 	}
 
 	img {
 		object-fit: cover;
 		width: 100%;
-		max-height: 600px;
 	}
 
-	h2 {
-		margin-bottom: 0;
-		padding-bottom: 2.5rem;
+	time.date-published {
+		display: block;
+		width: 100%;
 	}
 }
