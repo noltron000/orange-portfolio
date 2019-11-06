@@ -1,6 +1,52 @@
 #navbar {
-	background-color: lightgrey;
-	// ! THIS NAVBAR WILL BE OVERHAULED !
-	// once material-ui has been implemented, this will be
-	// replaced by one of its built-in components.
+	// size & position
+	height: 4rem; // ? convert to css-var
+	margin: -4rem 0 0 0; // ? convert to css-var
+
+	// background elements
+	background: rgba(255, 255, 255, 0.125);
+
+	// text info
+	color: whitesmoke;
+	line-height: 4rem; // ? convert to css-var
+	white-space: nowrap;
+
+	// flexbox params
+	display: flex;
+
+	ul {
+		display: inherit;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	a {
+		color: inherit;
+		display: block;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		font-weight: 900;
+		letter-spacing: 0.075em;
+	}
+
+	.active {
+		background-color: whitesmoke;
+		color: black;
+	}
+
+	.links {
+		flex-grow: 1;
+		a {
+			padding: 0 2rem;
+		}
+	}
+
+	.icons {
+		padding: 0 1rem;
+		a {
+			padding: 0 1rem;
+		}
+	}
 }
