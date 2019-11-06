@@ -21,8 +21,9 @@
 		"build": "react-scripts build",
 		"predeploy": "yarn build",
 		"deploy": "gh-pages -b master -d build",
-		"test": "CI=true react-scripts test --env=jsdom",
-		"test:coverage": "yarn test --coverage --coverageReporters=text-lcov | coveralls",
+		"test": "react-scripts test",
+		"test:integration": "CI=true react-scripts test --env=jsdom",
+		"test:coverage": "yarn test:integration --coverage --coverageReporters=text-lcov | coveralls",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
