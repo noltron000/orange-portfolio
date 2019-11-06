@@ -1,13 +1,23 @@
 .story {
 	padding: 3rem 2rem;
 	text-align: center;
+	border: solid 2px gainsboro;
+	border-bottom: 0;
 
 	h1 {
 		font-size: 3rem;
+		a {
+			color: inherit;
+			text-decoration: none;
+			&:hover {
+				color: rgb(24, 191, 239);
+			}
+		}
 	}
 
 	p {
 		margin: 0;
+		font-style: italic;
 	}
 
 	img {

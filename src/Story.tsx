@@ -9,9 +9,11 @@ const Story: React.FC = () => (
 		>
 			October 21, 2019
 		</time>
-		<a href='#nothing'>
-			<h1>Story Header</h1>
-		</a>
+		<h1>
+			<a href='#nothing'>
+				Story Header
+			</a>
+		</h1>
 		<a href='#nothing'>
 			<picture>
 				<source
