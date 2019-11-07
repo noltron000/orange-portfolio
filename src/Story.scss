@@ -1,11 +1,10 @@
 .story {
-	padding: 3rem 2rem;
+	padding: 2.5rem 2rem;
 	text-align: center;
-	border: solid 2px gainsboro;
-	border-bottom: 0;
+	border-top: solid 2px gainsboro;
 
 	h1 {
-		font-size: 3rem;
+		font-size: 2rem;
 		a {
 			color: inherit;
 			text-decoration: none;
@@ -17,16 +16,28 @@
 
 	p {
 		margin: 0;
-		font-style: italic;
+		text-align: justify;
 	}
 
 	img {
+		display: block;
 		object-fit: cover;
 		width: 100%;
+		margin: 0 0 1rem 0;
 	}
 
 	time.date-published {
 		display: block;
 		width: 100%;
+	}
+
+	&.major {
+		p {
+			font-style: italic;
+		}
+
+		h1 {
+			font-size: 3rem;
+		}
 	}
 }
