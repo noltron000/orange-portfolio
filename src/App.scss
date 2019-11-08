@@ -1,6 +1,6 @@
 #content {
 	// size & position
-	max-width: 72rem;
+	// max-width: 72rem;
 	margin: 0 auto;
 }
 
@@ -20,10 +20,4 @@
 	background-repeat: repeat, no-repeat, no-repeat;
 	background-attachment: scroll, scroll, scroll;
 	background-size: auto, auto, cover;
-}
-
-@media screen and (max-width: 78rem) {
-  #content {
-		max-width: calc(100vw - 6rem);
-  }
 }
