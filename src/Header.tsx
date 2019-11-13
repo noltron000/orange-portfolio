@@ -4,8 +4,8 @@ import './Header.scss'
 const Header: React.FC = () => (
 	<header id='header'>
 		<a
-			href='#nothing'
 			className='logo'
+			href='#nothing'
 		>
 			Portfolio
 		</a>

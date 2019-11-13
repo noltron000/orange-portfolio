@@ -1,19 +1,36 @@
-.post {
-	padding: 6rem 8rem;
+.story {
+	padding: 2.5rem 2rem;
 	text-align: center;
+	border-top: solid 2px gainsboro;
+
+	h1 {
+		font-size: 2rem;
+	}
 
 	p {
-		text-align: left;
+		margin: 0;
+		text-align: justify;
 	}
 
 	img {
+		display: block;
 		object-fit: cover;
 		width: 100%;
-		max-height: 600px;
+		margin: 0 0 1rem 0;
 	}
 
-	h2 {
-		margin-bottom: 0;
-		padding-bottom: 2.5rem;
+	time.date-published {
+		display: block;
+		width: 100%;
+	}
+
+	&.major {
+		p {
+			font-style: italic;
+		}
+
+		h1 {
+			font-size: 3rem;
+		}
 	}
 }

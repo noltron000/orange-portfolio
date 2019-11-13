@@ -1,34 +1,93 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
 
 // ! apply a natural box layout model to all elements !
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
+
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 // * set default fonts to all elements *
 body {
+	font-size: 0.875rem;
 	margin: 0;
-	font-family: 'Roboto', -apple-system, BlinkMacSystemFont,
-		'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	padding: 0;
+	font-family: lora, 'Lora', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.825;
 }
 
 code {
-	font-family: 'Roboto Mono', source-code-pro, Menlo,
-		Monaco, Consolas, 'Courier New', monospace;
+	font-family: source-code-pro, 'Source Code Pro', monospace;
 }
 
-h1 {
-	font-size: 8rem;
+h1, h2, h3, h4, h5, h6 {
+	// size & position
+	font-size: 2rem;
+	margin: 0 0 1.5rem 0;
+
+	// text info
+	font-family: source-sans-pro, 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	line-height: 1.125em;
+	font-weight: 900;
+
+	a {
+		// text info
+		color: inherit;
+		text-decoration: none;
+
+		// animation
+		transition:
+			color 0.25s ease-in-out;
+
+		&:hover {
+			color: rgb(24, 191, 239);
+		}
+	}
 }
 
-h2 {
-	font-size: 3rem;
+a.button {
+	// box model display
+	display: inline-block;
+
+	// size & position
+	width: 100%;
+	border-width: 0.125rem;
+	padding: 0 2.5rem;
+
+	// other appearances
+	border-style: solid;
+	border-color: black;
+
+	// text info
+	font-size: 0.875rem;
+	color: inherit;
+	text-decoration: none;
+	font-family: source-sans-pro, 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	line-height: 3em;
+	font-weight: 900;
+
+	// animation
+	transition:
+		color 0.25s ease-in-out,
+		border-color 0.25s ease-in-out;
+
+	&:hover {
+		color: rgb(24, 191, 239);
+		border-color: rgb(24, 191, 239);
+	}
+}
+
+time {
+	color: grey;
+	margin: 0 0 1.5rem 0;
 }
