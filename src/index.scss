@@ -34,6 +34,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
 	font-size: 2rem;
 	margin: 0 0 1.5rem 0;
+	a {
+		color: inherit;
+		text-decoration: none;
+		transition:
+			border-color 0.2s ease-in-out,
+			color 0.2s ease-in-out;
+		&:hover {
+			color: rgb(24, 191, 239);
+		}
+	}
 }
 
 time {
