@@ -10,8 +10,8 @@ const Boilerplate: React.FC = () => (
 				Hello World
 			</Typography>
 			<img
-				src={logo}
 				className='App-logo'
+				src={logo}
 				alt='logo'
 			/>
 			<p>

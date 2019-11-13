@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Literata:400,400i,700,700i&display=swap');
+
 
 // ! apply a natural box layout model to all elements !
 html {
@@ -13,30 +18,106 @@ html {
 
 // * set default fonts to all elements *
 body {
-	font-size: 0.875rem;
 	margin: 0;
 	padding: 0;
-	font-family: lora, 'Lora', serif;
+	font-family: alegreya, 'Alegreya', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	line-height: 1.825;
+	line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	// size & position
+	font-size: 2rem;
+	margin: 0 0 1.5rem 0;
+
+	// text info
+	font-family: source-sans-pro, 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	line-height: 1.125em;
+	font-weight: 900;
+
+	a {
+		// text info
+		color: inherit;
+		text-decoration: none;
+
+		// animation
+		transition:
+			color 0.25s ease-in-out;
+
+		&:hover {
+			color: rgb(24, 191, 239);
+		}
+	}
+}
+
+p {
+	margin: 0 0 1.5em;
+}
+
+time {
+	font-size: 0.875em;
+	color: grey;
+	margin: 0 0 0.75rem 0;
 }
 
 code {
 	font-family: source-code-pro, 'Source Code Pro', monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
+a.button {
+	// box model display
+	display: inline-block;
+
+	// size & position
+	width: 100%;
+	border-width: 0.125rem;
+	padding: 0 2.5rem;
+
+	// other appearances
+	border-style: solid;
+	border-color: black;
+
+	// text info
+	font-size: 0.75em;
+	color: inherit;
+	text-decoration: none;
 	font-family: source-sans-pro, 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.0625em;
-	line-height: 1.125em;
+	line-height: 3.5em;
 	font-weight: 900;
-	font-size: 2rem;
-	margin: 0 0 1.5rem 0;
+
+	// animation
+	transition:
+		color 0.25s ease-in-out,
+		border-color 0.25s ease-in-out;
+
+	&:hover {
+		color: rgb(24, 191, 239);
+		border-color: rgb(24, 191, 239);
+	}
 }
 
-time {
-	color: grey;
-	margin: 0 0 1.5rem 0;
+img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+a.img-portal {
+	display: block;
+	width: 100%;
+	margin: 1.5rem 0;
+	overflow: hidden;
+	img {
+		transition:
+			transform 0.25s;
+		&:hover {
+			transform:
+				scale(1.03125);
+		}
+	}
 }

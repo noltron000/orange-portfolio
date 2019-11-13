@@ -14,7 +14,10 @@ const Story: React.FC = () => (
 				Story Header
 			</a>
 		</h1>
-		<a href='#nothing'>
+		<a
+			className='img-portal'
+			href='#nothing'
+		>
 			<picture>
 				<source
 					srcSet='https://placekitten.com/1024/512'
@@ -32,7 +35,10 @@ const Story: React.FC = () => (
 			Lorem ipsum dolor amet nullam sed etiam veroeros.
 			Joilinaski asdif disinti vololox.
 		</p>
-		<a href='#nothing'>
+		<a
+			className='button'
+			href='#nothing'
+		>
 			Full Story
 		</a>
 	</article>
