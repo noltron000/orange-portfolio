@@ -32,7 +32,10 @@ const Story: React.FC = () => (
 			Lorem ipsum dolor amet nullam sed etiam veroeros.
 			Joilinaski asdif disinti vololox.
 		</p>
-		<a href='#nothing'>
+		<a
+			className='button'
+			href='#nothing'
+		>
 			Full Story
 		</a>
 	</article>
