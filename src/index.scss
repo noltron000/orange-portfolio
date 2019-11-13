@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 		// animation
 		transition:
-			color 0.2s ease-in-out;
+			color 0.25s ease-in-out;
 
 		&:hover {
 			color: rgb(24, 191, 239);
@@ -60,9 +60,11 @@ a.button {
 	// size & position
 	width: 100%;
 	border-width: 0.125rem;
+	padding: 0 2.5rem;
+
+	// other appearances
 	border-style: solid;
 	border-color: black;
-	padding: 0 2.5rem;
 
 	// text info
 	font-size: 0.875rem;
@@ -76,8 +78,8 @@ a.button {
 
 	// animation
 	transition:
-		border-color 0.125s ease-in-out,
-		color 0.125s ease-in-out;
+		color 0.25s ease-in-out,
+		border-color 0.25s ease-in-out;
 
 	&:hover {
 		color: rgb(24, 191, 239);
