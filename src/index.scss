@@ -27,22 +27,61 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	// size & position
+	font-size: 2rem;
+	margin: 0 0 1.5rem 0;
+
+	// text info
 	font-family: source-sans-pro, 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.0625em;
 	line-height: 1.125em;
 	font-weight: 900;
-	font-size: 2rem;
-	margin: 0 0 1.5rem 0;
+
 	a {
+		// text info
 		color: inherit;
 		text-decoration: none;
+
+		// animation
 		transition:
-			border-color 0.2s ease-in-out,
 			color 0.2s ease-in-out;
+
 		&:hover {
 			color: rgb(24, 191, 239);
 		}
+	}
+}
+
+a.button {
+	// box model display
+	display: inline-block;
+
+	// size & position
+	width: 100%;
+	border-width: 0.125rem;
+	border-style: solid;
+	border-color: black;
+	padding: 0 2.5rem;
+
+	// text info
+	font-size: 0.875rem;
+	color: inherit;
+	text-decoration: none;
+	font-family: source-sans-pro, 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	line-height: 3em;
+	font-weight: 900;
+
+	// animation
+	transition:
+		border-color 0.125s ease-in-out,
+		color 0.125s ease-in-out;
+
+	&:hover {
+		color: rgb(24, 191, 239);
+		border-color: rgb(24, 191, 239);
 	}
 }
 
