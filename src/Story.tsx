@@ -14,7 +14,10 @@ const Story: React.FC = () => (
 				Story Header
 			</a>
 		</h1>
-		<a href='#nothing'>
+		<a
+			className='img-portal'
+			href='#nothing'
+		>
 			<picture>
 				<source
 					srcSet='https://placekitten.com/1024/512'

@@ -95,3 +95,17 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
+
+a.img-portal {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	img {
+		transition:
+			transform 0.25s;
+		&:hover {
+			transform: scale(1.0625);
+		}
+	}
+}
