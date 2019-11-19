@@ -13,7 +13,7 @@ const Footer: React.FC = () => (
 					id='name'
 					name='name'
 					required
-				/><br />
+				/>
 				<label htmlFor='email'>
 					Email
 				</label>
@@ -22,16 +22,19 @@ const Footer: React.FC = () => (
 					id='email'
 					name='email'
 					required
-				/><br />
+				/>
 				<label htmlFor='message'>
 					Message
 				</label>
 				<textarea
 					id='message'
 					name='message'
-				/><br />
-				<button type='submit'>
-					Send
+				/>
+				<button
+					className='button'
+					type='submit'
+				>
+					Send Message
 				</button>
 			</form>
 		</section>
