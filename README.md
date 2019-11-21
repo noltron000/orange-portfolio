@@ -53,8 +53,7 @@ But ultimately, for myself, ESLint + Husky is enough to enforce a beautiful code
 # Deployment
 1. create a pull request to `dev`.
 1. when operations are ready, `dev` will be merged to `deploy`.
-1. while on `deploy`, a programmer can run `yarn run deploy` to trigger a build.
-	- note: the deployment will only take effect if there are changes to the frontend.
+1. once merged into `deploy`, TravisCI will build the app and commit it to `master`.
 1. `master` is an orphaned branch; github uses this branch as information to host on github pages.
 
 # Resources
