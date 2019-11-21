@@ -35,6 +35,10 @@ Thus, some really cool technologies have been used!
 <!-- - Uglify JS -->
 <!-- - Uglify CSS -->
 
+### Special Thanks
+This portfolio was created using a template on [*HTML5UP*](https://html5up.net/).
+The author made their projects using the [*Creative Commons Attribution 3.0 License*](https://html5up.net/license), which made this styled portfolio possible.
+
 ### Why No Prettier?
 Prettier is great and all, but it is heavily opinionated.
 For a framework that attempts to unify the industry with one standard, its standards don't always align with best practice.
