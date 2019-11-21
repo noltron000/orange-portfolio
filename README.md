@@ -18,17 +18,20 @@ Thus, some really cool technologies have been used!
 - Command Line
 - VSCode
 - Git Kraken
-- ESLint
+- HTML5
+- CSS3
+- ES6
 - React
 - TypeScript
 - Jest
 - Sass
-- Material UI
+- ESLint
 - GitHub Pages
 - Travis CI
 - Coveralls
 - Husky `?`
 - ~~Prettier~~
+- ~~Material UI~~
 <!-- - Uglify JS -->
 <!-- - Uglify CSS -->
 
