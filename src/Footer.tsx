@@ -38,25 +38,35 @@ const Footer: React.FC = () => (
 				</button>
 			</form>
 		</section>
-		<section id='contact'>
-			<section>
-				<p>Email</p>
-				<address>
-					my_handle@email.com
-				</address>
-			</section>
-			<section>
-				<p>Social</p>
-				<address>
-					<ul>
-						<li>Twitter</li>
-						<li>Facebook</li>
-						<li>Instagram</li>
-						<li>GitHub</li>
-						<li>LinkedIn</li>
-					</ul>
-				</address>
-			</section>
+		<section className='contact'>
+			<p className='label'>
+				Location
+			</p>
+			<address>
+				San Francisco, California
+			</address>
+		</section>
+		<section className='contact'>
+			<p className='label'>
+				Email
+			</p>
+			<address>
+				my_handle@email.com
+			</address>
+		</section>
+		<section className='contact'>
+			<p className='label'>
+				Social
+			</p>
+			<address>
+				<ul>
+					<li>Twitter</li>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>GitHub</li>
+					<li>LinkedIn</li>
+				</ul>
+			</address>
 		</section>
 	</footer>
 )

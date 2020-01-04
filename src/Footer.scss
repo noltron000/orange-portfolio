@@ -1,5 +1,22 @@
 #footer {
-	padding: 2.5rem 2rem;
-	border-top: solid 2px gainsboro;
 	background-color: #f5f5f5;
+
+	section {
+		padding: 2.5rem 2rem;
+		border-top: solid 2px gainsboro;
+		display: block;
+		border-top: solid 2px gainsboro;
+
+		&.contact {
+			display: flex;
+			align-items: baseline;
+
+			address {
+				flex-grow: 1;
+			}
+		}
+	}
+	label, p.label {
+		width: 6rem;
+	}
 }
