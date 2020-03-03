@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/noltron000/noltron000.github.io/badge.svg)](https://coveralls.io/github/noltron000/noltron000.github.io)
 
 ---
+# **[FIND NOLAN'S FULL PORTFOLIO HERE](https://github.com/noltron000-coursework)**
 
 # Portfolio
 Hi there! My name is Nolan Kovacik, and this is my project portfolio.
